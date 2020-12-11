@@ -5,6 +5,7 @@ import cv2 as cv2
 import random
 import sys
 
+
 img = np.full((512,512,3), 255, np.uint8)
 
 
@@ -50,9 +51,6 @@ cv2.imshow("Input", img)
 cv2.waitKey()
 
 print(points)
-
-
-
 
 
 

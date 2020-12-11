@@ -15,7 +15,8 @@ trees:
 - name: cr
   count: 50
   short_name: cr
-
+params:
+  distance_min: 3
 geometry:
   outline:
     - [48,3]
