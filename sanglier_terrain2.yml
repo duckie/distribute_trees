@@ -1,0 +1,40 @@
+---
+trees:
+- name: Charmes
+  count: 67
+  short_name: ch
+- name: Hêtres
+  count: 67
+  short_name: he
+- name: Chataigner
+  count: 37
+  short_name: ct
+- name: Merisiers
+  count: 37
+  short_name: me
+- name: Chênes
+  count: 67
+  short_name: cr
+params:
+  distance_min: 1
+geometry:
+  outline:
+    - [6,0]
+    - [2,56]
+    - [6,59]
+    - [8,62]
+    - [6,65]
+    - [1,68]
+    - [0,102]
+    - [34,102]
+    - [30,0]
+  holes:
+    -
+      - [8,80]
+      - [8,88]
+      - [12,88]
+      - [12,84]
+      - [16,84]
+      - [16,80]
+
+
