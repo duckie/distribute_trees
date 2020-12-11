@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "distribute_trees"
+version = "0.1.0"
+description = ""
+authors = ["Jean-Bernard Jansen <jean-bernard.jansen@dataiku.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.19.4"
+opencv-python = "^4.4.0"
+Shapely = "^1.7.1"
+drawSvg = "^1.7.0"
+jupyter = "^1.0.0"
+PyYAML = "^5.3.1"
+matplotlib = "^3.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
