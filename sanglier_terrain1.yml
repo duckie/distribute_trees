@@ -3,18 +3,23 @@ trees:
 - name: Charmes
   count: 33
   short_name: ch
+  marker: "o"
 - name: Hêtres
   count: 33
   short_name: he
+  marker: "s"
 - name: Chataigner
   count: 13
   short_name: ct
+  marker: "D"
 - name: Merisiers
   count: 13
   short_name: me
+  marker: "+"
 - name: Chênes
   count: 33
   short_name: cr
+  marker: "x"
 params:
   distance_min: 1.5
 geometry:
